@@ -5,6 +5,7 @@ cription**: Python module to convert text to MP3 files.
 **Example**:
 ```python
 #Creates /home/hello.mp3 that says "Hello, World!" at a faster speed than default.
+import espeak_py
 
 foo = espeak_py.init("/home/")
 
