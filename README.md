@@ -4,7 +4,7 @@
 
 **Example**:
 ```python
-#Creates /home/hello.mp3 that says "Hello, World!" at a faster speed then default.
+#Creates /home/hello.mp3 that says "Hello, World!" at a faster speed than default.
 
 foo = espeak_py.init("/home/")
 
@@ -16,9 +16,10 @@ foo.say(speak_string, {"speed":120}, file_name)
 ```
 
 **Options**:
-speed - int
-amp   - int
-pitch - int
-voice - string
+
+|speed|int|
+|amp|int|
+|pitch|int|
+|voice|string|
 
 Voices on your system can be seen by running "espeak --voices".
