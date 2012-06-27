@@ -1,4 +1,4 @@
-**Description**: Python module to convert text to MP3 files.
+cription**: Python module to convert text to MP3 files.
 
 **Dependencies**: linux distro, espeak, lame
 
@@ -17,9 +17,7 @@ foo.say(speak_string, {"speed":120}, file_name)
 
 **Options**:
 
-|speed|int|
-|amp|int|
-|pitch|int|
-|voice|string|
+{speed: INT, amp : INT, pitch : INT, voice : STRING}
+
 
 Voices on your system can be seen by running "espeak --voices".
