@@ -1,4 +1,4 @@
-cription**: Python module to convert text to MP3 files.
+**Description**: Python module to convert text to MP3 files.
 
 **Dependencies**: linux distro, espeak, lame
 
