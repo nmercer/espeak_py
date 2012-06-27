@@ -1,11 +1,9 @@
-== espeak_py
+**Description**: Python module to convert text to MP3 files.
 
-Description: Python module to convert text to MP3 files.
+**Dependencies**: linux distro, espeak, lame
 
-Dependencies: linux distro, espeak, lame
-
-Example:
-[code lang="python"]
+**Example**:
+```python
 #Creates /home/hello.mp3 that says "Hello, World!" at a faster speed then default.
 
 foo = espeak_py.init("/home/")
@@ -15,9 +13,9 @@ options = {"speed":120}
 file_name = "hello"
 
 foo.say(speak_string, {"speed":120}, file_name)
-[/code]
+```
 
-Options:
+**Options**:
 speed - int
 amp   - int
 pitch - int
